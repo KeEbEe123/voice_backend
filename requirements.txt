@@ -1,12 +1,7 @@
 Flask==2.2.5
 Flask-Cors==5.0.0
-tensorboard==2.11.2
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.12.0
-tensorflow-estimator==2.11.0
+tensorflow==2.11.0
 tensorflow-hub==0.16.0
-tensorflow-io-gcs-filesystem==0.31.0
 matplotlib==3.5.3
 scipy==1.7.3
 music21==7.3.3
