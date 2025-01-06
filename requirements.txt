@@ -7,3 +7,4 @@ scipy==1.7.3
 music21==7.3.3
 pydub==0.25.1
 requests==2.31.0
+gunicorn==23.0.0
