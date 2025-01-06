@@ -1,6 +1,6 @@
 
 import wave
-
+import os
 
 import tensorflow as tf
 import tensorflow_hub as hub
@@ -341,5 +341,6 @@ def process_audio():
     return jsonify(processed_data)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)  # Run the Flask app
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5000)))
+  # Run the Flask app
